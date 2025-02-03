@@ -34,10 +34,12 @@ Example:
 
 ## Repository Structure  
 ```
-/src         # VHDL source files  
-/tests       # Testbenches and verification scripts  
-/docs        # Project documentation and reports  
-/screenshots # Simulation and synthesis results  
+/                     # VHDL files
+/modelsim_waveforms   # Waveform files
+/riscv_tests          # Test programs and simulation scripts  
+/sigasi_docs          # Documentation related to Sigasi
+/testbenches          # Simulation files for verifying the functionality of each design component
+/work                 # Compiled or synthesized design files
 ```
 
 ## Getting Started  
