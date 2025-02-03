@@ -29,7 +29,7 @@ The processor has been thoroughly tested and verified through:
 
 Example:  
 ```md
-![Complete RISC-V model (RV32I)](https://github.com/vaggelisbarb/RISCV-Microprocessor/blob/main/docs/riscv_processorCollapsed.png)
+![Complete RISC-V model (RV32I)]([https://github.com/vaggelisbarb/RISCV-Microprocessor/blob/main/docs/riscv_processorCollapsed.png](https://github.com/user-attachments/assets/df177035-a8d6-4dc6-a5a8-bacd02e5aa57))
 ```
 
 ## Repository Structure  
@@ -41,7 +41,6 @@ Example:
 /testbenches          # Simulation files for verifying the functionality of each design component
 /work                 # Compiled or synthesized design files
 ```
-![riscv_processorCollapsed](https://github.com/user-attachments/assets/df177035-a8d6-4dc6-a5a8-bacd02e5aa57)
 
 ## Getting Started  
 To set up and run the project, follow these steps:  
