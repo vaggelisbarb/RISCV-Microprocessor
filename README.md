@@ -34,7 +34,7 @@ Example:
 
 ## Repository Structure  
 ```
-/                     # VHDL files
+/components           # VHDL files
 /modelsim_waveforms   # Waveform files
 /riscv_tests          # Test programs and simulation scripts  
 /sigasi_docs          # Documentation related to Sigasi
