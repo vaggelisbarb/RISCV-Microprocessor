@@ -28,9 +28,9 @@ The processor has been thoroughly tested and verified through:
 *(Add simulation waveforms, block diagrams, or FPGA synthesis results here.)*  
 
 Example:  
-```md
+
 ![Complete RISC-V model (RV32I)]([https://github.com/vaggelisbarb/RISCV-Microprocessor/blob/main/docs/riscv_processorCollapsed.png](https://github.com/user-attachments/assets/df177035-a8d6-4dc6-a5a8-bacd02e5aa57))
-```
+
 
 ## Repository Structure  
 ```
