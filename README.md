@@ -29,7 +29,7 @@ The processor has been thoroughly tested and verified through:
 
 Example:  
 ```md
-![Waveform Example](screenshots/waveform.png)
+![Waveform Example](docs/riscv_processorCollapsed.png)
 ```
 
 ## Repository Structure  
