@@ -29,7 +29,7 @@ The processor has been thoroughly tested and verified through:
 
 Example:  
 ```md
-![Complete RISC-V model (RV32I)](https://github.com/vaggelisbarb/RISCV-Microprocessor/blob/main/docs/riscv_processorCollapsed.png)
+![Complete RISC-V model (RV32I)] (https://github.com/vaggelisbarb/RISCV-Microprocessor/blob/main/docs/riscv_processorCollapsed.png)
 ```
 
 ## Repository Structure  
