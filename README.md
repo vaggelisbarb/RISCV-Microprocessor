@@ -1,13 +1,15 @@
 # Educational RISC-V Processor Implementation  
 
-## Overview  
-This repository contains the implementation of an **educational RISC-V processor** using **VHDL**. The project is designed as a learning tool to illustrate processor design principles, instruction execution, and pipelining in the **RISC-V architecture**.  
+## Overview
+This repository contains a model of a pipelined processor based on the **RISC-V architecture**, implemented in the hardware description language **VHDL**, with an emphasis on the simplicity of the final design.
+To confirm the correct operation of the implemented model, a large number of individual commands and sequences of commands were executed.
 
 ## Technologies Used  
 - **VHDL** – Hardware Description Language for digital design  
-- **Xilinx Vivado / Intel Quartus** – FPGA design, simulation, and synthesis  
-- **GTKWave** – Waveform analysis and debugging  
-- **RISC-V Assembly** – Test programs for functional verification  
+- **Intel Quartus** – FPGA design, simulation, and synthesis
+- **Sigasi Studio Eclipse Plugin** – Hardware design tool 
+- **ModelSim** – Waveform analysis and debugging  
+- **RARS** – RISC-V Assembler and Simulator 
 
 ## Features  
 - **5-stage pipelined RISC-V processor**  
