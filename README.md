@@ -47,16 +47,16 @@ To set up and run the project, follow these steps:
 
 ### Prerequisites  
 Ensure you have the following tools installed:  
-- **Vivado** (for Xilinx FPGA users) or **Quartus** (for Intel FPGA users)  
-- **GTKWave** for waveform analysis  
+- **Quartus** (for Intel FPGA users)  
+- **ModelSim** for waveform analysis  
 
 ### Running the Simulation  
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/vaggelisbarb/RISCV-Microprocessor.git
    cd your-repo
    ```
-2. Open **Vivado** or **Quartus**  
+2. Open **Quartus**  
 3. Import the VHDL source files  
 4. Run **simulation** to verify processor execution  
 5. *(Optional)* Synthesize the design for FPGA deployment  
