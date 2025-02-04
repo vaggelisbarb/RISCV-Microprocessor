@@ -25,11 +25,14 @@ The processor has been thoroughly tested and verified through:
 - **Execution of RISC-V assembly programs** to validate functional correctness  
 
 ## Screenshots  
-*(Add simulation waveforms, block diagrams, or FPGA synthesis results here.)*  
 
-Example:  
+Complete RISC-V model (RV32I):  
 
 ![riscv_processorCollapsed](https://github.com/user-attachments/assets/639215f8-6ce8-4b68-a552-2734b2b7a43d)
+
+Waveform of the final model's operation:
+
+![test2](https://github.com/user-attachments/assets/fcbdbaac-c437-4d6d-ac0b-569198e8c105)
 
 
 ## Repository Structure  
@@ -41,6 +44,39 @@ Example:
 /testbenches          # Simulation files for verifying the functionality of each design component
 /work                 # Compiled or synthesized design files
 ```
+
+## Components Folder
+
+The `components` folder contains the various modules that make up the complete RISC-V processor design. Each module is responsible for a specific function in the processor. Below is an overview of the key components:
+
+- **ALU (Arithmetic Logic Unit)**: 
+  - Performs arithmetic and logical operations.
+
+   -- ALU unit :
+  ![alu](https://github.com/user-attachments/assets/8d2a670f-ffe9-4a88-b754-60d9738e7cbb)
+  
+   -- ALU control unit :
+  ![alu_control_unit](https://github.com/user-attachments/assets/f7bd47fe-4e58-4832-816f-ef6602b34d97)
+  
+   -- ALU mux :
+   ![alu_mux](https://github.com/user-attachments/assets/ad8299d1-5101-43ae-9850-c8504408eb76)
+
+- **Control Unit**: 
+  - Decodes instructions and generates control signals for other components.
+
+- **Registers**: 
+  - Implements the register file, providing read/write access to the processor's registers.
+
+- **Program Counter**: 
+  - Keeps track of the current instruction address.
+
+- **Memory**: 
+  - Simulates the data and instruction memory for the processor.
+
+- **Instruction Fetch/Decode/Execute**: 
+  - Handles the fetching, decoding, and execution of instructions in the pipeline.
+
+Each component is implemented in VHDL and can be independently tested and simulated using corresponding testbenches.
 
 ## Getting Started  
 To set up and run the project, follow these steps:  
