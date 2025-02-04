@@ -114,9 +114,6 @@ Ensure the following tools are installed:
 4. Run **simulation** to verify processor execution  
 5. *(Optional)* Synthesize the design for FPGA deployment  
 
-## License  
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
-
 ## Acknowledgments  
 Special thanks to the **University of Ioannina** for supporting this project.  
 
