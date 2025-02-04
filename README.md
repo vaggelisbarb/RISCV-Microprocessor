@@ -51,20 +51,20 @@ The `components` folder contains the various modules that make up the complete R
 
 - **ALU (Arithmetic Logic Unit)**: 
   - Performs arithmetic and logical operations.
-  - 
-<img src="https://github.com/user-attachments/assets/8d2a670f-ffe9-4a88-b754-60d9738e7cbb" width="320" height="180"/> 
-<img src="https://github.com/user-attachments/assets/f7bd47fe-4e58-4832-816f-ef6602b34d97" width="320" height="180"/> 
-<img src="https://github.com/user-attachments/assets/ad8299d1-5101-43ae-9850-c8504408eb76" width="320" height="180"/>
+  
+  <img src="https://github.com/user-attachments/assets/8d2a670f-ffe9-4a88-b754-60d9738e7cbb" width="320" height="180"/> 
+  <img src="https://github.com/user-attachments/assets/f7bd47fe-4e58-4832-816f-ef6602b34d97" width="320" height="180"/> 
+  <img src="https://github.com/user-attachments/assets/ad8299d1-5101-43ae-9850-c8504408eb76" width="320" height="180"/>
 
 - **Control Unit**: 
   - Decodes instructions and generates control signals for other components.
     
-  <img src="https://github.com/user-attachments/assets/ef2e9506-254c-450c-a30c-99c99e6a1314" width="400" height="200"/>
+  <img src="https://github.com/user-attachments/assets/ef2e9506-254c-450c-a30c-99c99e6a1314" width="420" height="220"/>
 
 - **Registers**: 
   - Implements the register file, providing read/write access to the processor's registers.
     
-  <img src="https://github.com/user-attachments/assets/8917de86-70fc-4ca8-aa76-5ddc21582d72" width="400" height="200"/>
+  <img src="https://github.com/user-attachments/assets/8917de86-70fc-4ca8-aa76-5ddc21582d72" width="420" height="220"/>
 
 - **Program Counter**: 
   - Keeps track of the current instruction address.
@@ -72,12 +72,12 @@ The `components` folder contains the various modules that make up the complete R
 - **Memory**: 
   - Simulates the data and instruction memory for the processor.
     
-  <img src="https://github.com/user-attachments/assets/50ebc3e0-f160-4c1f-84aa-9290aa7c5a71" width="400" height="200"/>
+  <img src="https://github.com/user-attachments/assets/50ebc3e0-f160-4c1f-84aa-9290aa7c5a71" width="420" height="220"/>
 
 - **Instruction Decode**: 
   - Handles the decoding of instructions in the pipeline.
 
-  <img src="https://github.com/user-attachments/assets/69dc4108-1de2-4549-ac9b-2ace6a02df64" width="400" height="200"/>
+  <img src="https://github.com/user-attachments/assets/69dc4108-1de2-4549-ac9b-2ace6a02df64" width="420" height="220"/>
 
 
 Each component is implemented in VHDL and can be independently tested and simulated using corresponding testbenches.
