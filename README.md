@@ -58,18 +58,27 @@ The `components` folder contains the various modules that make up the complete R
 
 - **Control Unit**: 
   - Decodes instructions and generates control signals for other components.
+    
+  <img src="https://github.com/user-attachments/assets/ef2e9506-254c-450c-a30c-99c99e6a1314" width="400" height="200"/>
 
 - **Registers**: 
   - Implements the register file, providing read/write access to the processor's registers.
+    
+  <img src="https://github.com/user-attachments/assets/8917de86-70fc-4ca8-aa76-5ddc21582d72" width="400" height="200"/>
 
 - **Program Counter**: 
   - Keeps track of the current instruction address.
 
 - **Memory**: 
   - Simulates the data and instruction memory for the processor.
+    
+  <img src="https://github.com/user-attachments/assets/50ebc3e0-f160-4c1f-84aa-9290aa7c5a71" width="400" height="200"/>
 
-- **Instruction Fetch/Decode/Execute**: 
-  - Handles the fetching, decoding, and execution of instructions in the pipeline.
+- **Instruction Decode**: 
+  - Handles the decoding of instructions in the pipeline.
+
+  <img src="https://github.com/user-attachments/assets/69dc4108-1de2-4549-ac9b-2ace6a02df64" width="400" height="200"/>
+
 
 Each component is implemented in VHDL and can be independently tested and simulated using corresponding testbenches.
 
