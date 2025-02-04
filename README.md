@@ -81,12 +81,17 @@ Implements the register file, providing read/write access to the processor's reg
 Simulates the data and instruction memory for the processor.
 
 <img src="https://github.com/user-attachments/assets/50ebc3e0-f160-4c1f-84aa-9290aa7c5a71" width="280" height="150"/>
-<img src="(https://github.com/user-attachments/assets/a83b1788-0cdf-42ef-8927-1b155a97a360" width="280" height="150"/>
+<img src="https://github.com/user-attachments/assets/a83b1788-0cdf-42ef-8927-1b155a97a360" width="280" height="150"/>
 
 ### **Instruction Decode**  
 Handles the decoding of instructions in the pipeline.
 
 <img src="https://github.com/user-attachments/assets/69dc4108-1de2-4549-ac9b-2ace6a02df64" width="280" height="150"/>
+
+### **Instruction Execution**  
+Handles the execution of instructions in the pipeline.
+
+<img src="https://github.com/user-attachments/assets/e9daf533-89d8-4f9d-933f-e64511abd266" width="280" height="150"/>
 
 ---
 
