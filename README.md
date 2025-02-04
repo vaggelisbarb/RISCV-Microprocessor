@@ -53,29 +53,29 @@ The `components` folder contains various modules responsible for different funct
 ### **ALU (Arithmetic Logic Unit)**  
 Responsible for performing arithmetic and logical operations.
 
-<img src="https://github.com/user-attachments/assets/8d2a670f-ffe9-4a88-b754-60d9738e7cbb" width="160" height="90"/>  
-<img src="https://github.com/user-attachments/assets/f7bd47fe-4e58-4832-816f-ef6602b34d97" width="160" height="90"/>  
-<img src="https://github.com/user-attachments/assets/ad8299d1-5101-43ae-9850-c8504408eb76" width="160" height="90"/>
+<img src="https://github.com/user-attachments/assets/8d2a670f-ffe9-4a88-b754-60d9738e7cbb" width="240" height="130"/>  
+<img src="https://github.com/user-attachments/assets/f7bd47fe-4e58-4832-816f-ef6602b34d97" width="240" height="130"/>  
+<img src="https://github.com/user-attachments/assets/ad8299d1-5101-43ae-9850-c8504408eb76" width="240" height="130"/>
 
 ### **Control Unit**  
 Decodes instructions and generates control signals for other components.
 
-<img src="https://github.com/user-attachments/assets/ef2e9506-254c-450c-a30c-99c99e6a1314" width="200" height="110"/>
+<img src="https://github.com/user-attachments/assets/ef2e9506-254c-450c-a30c-99c99e6a1314" width="280" height="150"/>
 
 ### **Registers**  
 Implements the register file, providing read/write access to the processor's registers.
 
-<img src="https://github.com/user-attachments/assets/8917de86-70fc-4ca8-aa76-5ddc21582d72" width="200" height="110"/>
+<img src="https://github.com/user-attachments/assets/8917de86-70fc-4ca8-aa76-5ddc21582d72" width="280" height="150"/>
 
 ### **Memory**  
 Simulates the data and instruction memory for the processor.
 
-<img src="https://github.com/user-attachments/assets/50ebc3e0-f160-4c1f-84aa-9290aa7c5a71" width="200" height="110"/>
+<img src="https://github.com/user-attachments/assets/50ebc3e0-f160-4c1f-84aa-9290aa7c5a71" width="280" height="150"/>
 
 ### **Instruction Decode**  
 Handles the decoding of instructions in the pipeline.
 
-<img src="https://github.com/user-attachments/assets/69dc4108-1de2-4549-ac9b-2ace6a02df64" width="200" height="110"/>
+<img src="https://github.com/user-attachments/assets/69dc4108-1de2-4549-ac9b-2ace6a02df64" width="280" height="150"/>
 
 ---
 
