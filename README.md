@@ -1,40 +1,49 @@
 # Educational RISC-V Processor Implementation  
 
-## Overview
-This repository contains a model of a pipelined processor based on the **RISC-V architecture**, implemented in the hardware description language **VHDL**, with an emphasis on the simplicity of the final design.
-To confirm the correct operation of the implemented model, a large number of individual commands and sequences of commands were executed.
+## Overview  
+This repository presents a model of a pipelined processor based on the **RISC-V architecture**, implemented in the hardware description language **VHDL**. The design prioritizes simplicity while ensuring correctness through thorough testing with a variety of commands and sequences.
 
 ## Technologies Used  
+The following tools and technologies were employed in the development and testing of the processor:
+
 - **VHDL** – Hardware Description Language for digital design  
-- **Intel Quartus** – FPGA design, simulation, and synthesis
-- **Sigasi Studio Eclipse Plugin** – Hardware design tool 
+- **Intel Quartus** – FPGA design, simulation, and synthesis  
+- **Sigasi Studio Eclipse Plugin** – Hardware design tool  
 - **ModelSim** – Waveform analysis and debugging  
-- **RARS** – RISC-V Assembler and Simulator 
+- **RARS** – RISC-V Assembler and Simulator  
 
 ## Features  
+The project offers the following key features:
+
 - **5-stage pipelined RISC-V processor**  
-- **Support for RV32I instruction set**  
+- **Support for the RV32I instruction set**  
 - **Hazard detection and forwarding mechanisms**  
 - **Memory interface for instruction and data access**  
 - **Comprehensive testbench for functional validation**  
 
+---
+
 ## Testing & Verification  
-The processor has been thoroughly tested and verified through:  
-- **Unit testing** of key components (ALU, Register File, Control Unit)  
+The processor was extensively tested through:
+
+- **Unit testing** of key components such as the ALU, Register File, and Control Unit  
 - **Simulation waveforms** to analyze instruction execution and pipeline behavior  
-- **Execution of RISC-V assembly programs** to validate functional correctness  
+- **Execution of RISC-V assembly programs** to ensure functional correctness  
+
+---
 
 ## Screenshots  
 
-### Complete RISC-V Model (RV32I):  
+### Complete RISC-V Model (RV32I)  
 ![riscv_processorCollapsed](https://github.com/user-attachments/assets/639215f8-6ce8-4b68-a552-2734b2b7a43d)
 
-### Waveform of the Final Model's Operation:
+### Waveform of the Final Model's Operation  
 ![test2](https://github.com/user-attachments/assets/fcbdbaac-c437-4d6d-ac0b-569198e8c105)
 
 ---
 
 ## Repository Structure  
+The project directory structure is organized as follows:
 ```
 /components           # VHDL files
 /modelsim_waveforms   # Waveform files
@@ -44,11 +53,12 @@ The processor has been thoroughly tested and verified through:
 /work                 # Compiled or synthesized design files
 ```
 
+
 ---
 
-## Components Folder
+## Components Folder  
 
-The `components` folder contains various modules responsible for different functions in the RISC-V processor. Below is a summary of each component:
+The `components` folder contains the individual modules that make up the complete RISC-V processor design. Below is a summary of the key components:
 
 ### **ALU (Arithmetic Logic Unit)**  
 Responsible for performing arithmetic and logical operations.
@@ -79,13 +89,16 @@ Handles the decoding of instructions in the pipeline.
 
 ---
 
-Each component is implemented in VHDL and can be independently tested and simulated using the corresponding testbenches.
+Each component is implemented in VHDL and can be independently tested and simulated using corresponding testbenches.
+
+---
 
 ## Getting Started  
-To set up and run the project, follow these steps:  
+
+Follow these steps to set up and run the project:
 
 ### Prerequisites  
-Ensure you have the following tools installed:  
+Ensure the following tools are installed:  
 - **Quartus** (for Intel FPGA users)  
 - **ModelSim** for waveform analysis  
 
@@ -93,7 +106,7 @@ Ensure you have the following tools installed:
 1. Clone the repository:  
    ```sh
    git clone https://github.com/vaggelisbarb/RISCV-Microprocessor.git
-   cd your-repo
+   cd RISCV-Microprocessor
    ```
 2. Open **Quartus**  
 3. Import the VHDL source files  
