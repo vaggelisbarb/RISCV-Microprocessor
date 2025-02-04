@@ -26,14 +26,13 @@ The processor has been thoroughly tested and verified through:
 
 ## Screenshots  
 
-Complete RISC-V model (RV32I):  
-
+### Complete RISC-V Model (RV32I):  
 ![riscv_processorCollapsed](https://github.com/user-attachments/assets/639215f8-6ce8-4b68-a552-2734b2b7a43d)
 
-Waveform of the final model's operation:
-
+### Waveform of the Final Model's Operation:
 ![test2](https://github.com/user-attachments/assets/fcbdbaac-c437-4d6d-ac0b-569198e8c105)
 
+---
 
 ## Repository Structure  
 ```
@@ -45,42 +44,45 @@ Waveform of the final model's operation:
 /work                 # Compiled or synthesized design files
 ```
 
+---
+
 ## Components Folder
 
-The `components` folder contains the various modules that make up the complete RISC-V processor design. Each module is responsible for a specific function in the processor. Below is an overview of the key components:
+The `components` folder contains various modules responsible for different functions in the RISC-V processor. Below is a summary of each component:
 
-- **ALU (Arithmetic Logic Unit)**: 
-  - Performs arithmetic and logical operations.
-  
-  <img src="https://github.com/user-attachments/assets/8d2a670f-ffe9-4a88-b754-60d9738e7cbb" width="320" height="180"/> 
-  <img src="https://github.com/user-attachments/assets/f7bd47fe-4e58-4832-816f-ef6602b34d97" width="320" height="180"/> 
-  <img src="https://github.com/user-attachments/assets/ad8299d1-5101-43ae-9850-c8504408eb76" width="320" height="180"/>
+### **ALU (Arithmetic Logic Unit)**  
+Responsible for performing arithmetic and logical operations.
 
-- **Control Unit**: 
-  - Decodes instructions and generates control signals for other components.
-    
-  <img src="https://github.com/user-attachments/assets/ef2e9506-254c-450c-a30c-99c99e6a1314" width="420" height="220"/>
+![ALU](https://github.com/user-attachments/assets/8d2a670f-ffe9-4a88-b754-60d9738e7cbb)  
+![ALU Control Unit](https://github.com/user-attachments/assets/f7bd47fe-4e58-4832-816f-ef6602b34d97)  
+![ALU MUX](https://github.com/user-attachments/assets/ad8299d1-5101-43ae-9850-c8504408eb76)
 
-- **Registers**: 
-  - Implements the register file, providing read/write access to the processor's registers.
-    
-  <img src="https://github.com/user-attachments/assets/8917de86-70fc-4ca8-aa76-5ddc21582d72" width="420" height="220"/>
+### **Control Unit**  
+Decodes instructions and generates control signals for other components.
 
-- **Program Counter**: 
-  - Keeps track of the current instruction address.
+![Control Unit](https://github.com/user-attachments/assets/ef2e9506-254c-450c-a30c-99c99e6a1314)
 
-- **Memory**: 
-  - Simulates the data and instruction memory for the processor.
-    
-  <img src="https://github.com/user-attachments/assets/50ebc3e0-f160-4c1f-84aa-9290aa7c5a71" width="420" height="220"/>
+### **Registers**  
+Implements the register file, providing read/write access to the processor's registers.
 
-- **Instruction Decode**: 
-  - Handles the decoding of instructions in the pipeline.
+![Registers](https://github.com/user-attachments/assets/8917de86-70fc-4ca8-aa76-5ddc21582d72)
 
-  <img src="https://github.com/user-attachments/assets/69dc4108-1de2-4549-ac9b-2ace6a02df64" width="420" height="220"/>
+### **Program Counter**  
+Keeps track of the current instruction address.
 
+### **Memory**  
+Simulates the data and instruction memory for the processor.
 
-Each component is implemented in VHDL and can be independently tested and simulated using corresponding testbenches.
+![Memory](https://github.com/user-attachments/assets/50ebc3e0-f160-4c1f-84aa-9290aa7c5a71)
+
+### **Instruction Decode**  
+Handles the decoding of instructions in the pipeline.
+
+![Instruction Decode](https://github.com/user-attachments/assets/69dc4108-1de2-4549-ac9b-2ace6a02df64)
+
+---
+
+Each component is implemented in VHDL and can be independently tested and simulated using the corresponding testbenches.
 
 ## Getting Started  
 To set up and run the project, follow these steps:  
