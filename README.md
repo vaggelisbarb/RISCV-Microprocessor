@@ -51,15 +51,8 @@ The `components` folder contains the various modules that make up the complete R
 
 - **ALU (Arithmetic Logic Unit)**: 
   - Performs arithmetic and logical operations.
-
-   -- ALU unit :
-  ![alu](https://github.com/user-attachments/assets/8d2a670f-ffe9-4a88-b754-60d9738e7cbb)
-  
-   -- ALU control unit :
-  ![alu_control_unit](https://github.com/user-attachments/assets/f7bd47fe-4e58-4832-816f-ef6602b34d97)
-  
-   -- ALU mux :
-   ![alu_mux](https://github.com/user-attachments/assets/ad8299d1-5101-43ae-9850-c8504408eb76)
+  - 
+  ![alu](https://github.com/user-attachments/assets/8d2a670f-ffe9-4a88-b754-60d9738e7cbb) ![alu_control_unit](https://github.com/user-attachments/assets/f7bd47fe-4e58-4832-816f-ef6602b34d97)  ![alu_mux](https://github.com/user-attachments/assets/ad8299d1-5101-43ae-9850-c8504408eb76)
 
 - **Control Unit**: 
   - Decodes instructions and generates control signals for other components.
